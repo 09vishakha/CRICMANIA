@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='#'><img src='/img/logo1.jpg' /></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Teams</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="poll.html">polls</a></li>
+                    <li><a href="winner.html">Winning moments</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+    <section class="sec-mid">
+
+    </section>
+    <section class="sec2">
+
+        <div class="contact-form">
+            <h2>CONTACT US</h2>
+            <form id="contactForm">
+                <div class="form-labels">
+                    <label for="name">NAME:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="form-labels">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="form-labels">
+                    <label for="message">MESSAGE:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <button type="button" class="submit-btn" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="sec4">
+        <footer class="foot">
+
+            <div class="col1">
+                <h3>Useful Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="poll.html">features</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+            <div class="col2">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="text" placeholder="Enter your email" required>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="col3">
+                <h3>Contact</h3>
+                <p>JEC Jabalpur,INDIA</p>
+                <p>vishurajput0911@gmail.com</p>
+                <p>+91-9988776655</p>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+
+        </footer>
+    </section>
+    <script>
+        function submitForm() {
+            let form = document.getElementById('contactForm');
+            if (form.checkValidity()) {
+                alert('Form submitted successfully!');
+
+            } else {
+                alert('Please fill out all required fields.');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
