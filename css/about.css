@@ -70,7 +70,7 @@ body{
 .sec3::before{ 
     content: "";
     position: absolute;
-    background: url('./img/covthree.png') no-repeat center center/cover;
+    background: url('/img/covthree.png') no-repeat center center/cover;
     height: 430px;
     top:0px;
     left:0px;
