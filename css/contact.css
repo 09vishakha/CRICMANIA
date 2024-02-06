@@ -67,7 +67,7 @@ body{
 .sec-mid::before{ 
   content: "";
   position: absolute;
-  background: url('../img/cover\ photo.jpg') no-repeat center center/cover;
+  background: url('../img/cover photo.jpg') no-repeat center center/cover;
   height: 370px;
   top:0px;
   left:0px;
