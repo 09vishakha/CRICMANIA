@@ -125,7 +125,7 @@ body {
     background-image: linear-gradient(to bottom,red blue);
 }
 .container .card h1{
-    margin: 20px;
+    margin: 20px 10px;
     color: rgb(6, 58, 110);
 }
 .container .card h3{
