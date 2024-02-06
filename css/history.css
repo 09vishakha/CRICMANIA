@@ -86,7 +86,7 @@ body{
 .sec2::before {
     content: "";
     position: absolute;
-    background: url('/img/hist.jpg') no-repeat center center/cover;
+    background: url('../img/hist.jpg') no-repeat center center/cover;
     height: 400px;
     background: linear-gradient(to bottom, black);
     top: 0px;
