@@ -112,7 +112,7 @@ h1{
 /*     height: auto */
     width: 850px;
     padding: 10px;
-    display: block;
+    display: flex;
     box-shadow: 2px 2px 10px rgb(18, 18, 18);
     flex-direction: column;
     justify-content: center;
