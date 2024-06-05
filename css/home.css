@@ -158,7 +158,7 @@ body {
 }
 
 #services .box {
-    /* border: 2px solid rgb(248, 243, 243); */
+    border: 2px solid rgb(248, 243, 243);
     padding: 0px 0px 34px 0px;
     width: 320px;
     display: flex;
@@ -173,7 +173,7 @@ body {
 
 #services .box img {
     height: 300px;
-    width: 320px;
+    width: 317px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin: auto;
@@ -434,7 +434,7 @@ form button {
 
     #services .box img {
         height: 207px;
-        width: 190px;
+        width: 187px;
     }
 
     #services .box button {
