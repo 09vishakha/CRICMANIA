@@ -109,6 +109,7 @@ h1{
 }
 .card {
     height: 700px;
+/*     height: auto */
     width: 850px;
     padding: 10px;
     display: block;
@@ -122,13 +123,13 @@ h1{
     background-image: linear-gradient(to bottom,hsl(240, 38%, 60%),rgb(71, 155, 166));
 }
 .card div img{
-    width: 90%;
-    /* height: 200px; */
-/*     width: 625px; */
-/*     margin-top: -22px; */
-/*     margin-left: 10px; */
-/*     margin-right: 10px; */
-/*     margin-bottom: 26px; */
+/*     width: 90%; */
+    height: 200px;
+    width: 625px;
+    margin-top: -22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 26px;
     border-radius: 10px;
 }
 .card .content{
@@ -241,8 +242,8 @@ form button{
     }
     .card img{
         width: 90%;
-        padding: 20px;
-        margin: auto;
+/*         padding: 20px; */
+/*         margin: auto; */
     }
     .card .content{
         font-size: 15px;
