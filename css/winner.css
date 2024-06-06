@@ -110,7 +110,7 @@ h1{
 .card {
 /*     height: 700px; */
     width: 850px;
-    padding: 10px;
+    padding: 35px;
     display: flex;
     box-shadow: 2px 2px 10px rgb(18, 18, 18);
     flex-direction: column;
